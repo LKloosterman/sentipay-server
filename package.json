@@ -1,0 +1,15 @@
+{
+  "name": "sentipay-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Lars Kloosterman",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@psf/bch-js": "^3.8.7",
+    "bitbox-sdk": "^8.11.2",
+    "bitcore-lib-cash": "^8.23.1",
+    "express": "^4.17.1",
+    "slpjs": "^0.27.8"
+  }
+}
