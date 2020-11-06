@@ -161,8 +161,7 @@ async function sendEscrowBalance(transaction_code) {
         let slp_address = pending_transactions[transaction_index].escrow_slp_address
         let key_pair = bchjs.HDNode.toKeyPair(pending_transactions[transaction_index].escrow_change)
 
-        // let recipient_address = pending_transactions[transaction_index].recipient_address
-        let recipient_address = 'slptest:qqtykpf6nceay7fda68n66ms8mqmqxjqrqr8fylwqq'
+        let recipient_address = pending_transactions[transaction_index].recipient_address
 
         const utxo_data = await bchjs.Electrumx.utxo(cash_address)
         const utxos = utxo_data.utxos
