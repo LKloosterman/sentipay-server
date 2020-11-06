@@ -2,7 +2,7 @@ const EXPRESS = require('express')
 const PORT = process.env.PORT || 3000
 const BCHJS = require("@psf/bch-js")
 const MNEMONIC = "pluck vendor erase always juice wash consider fee breeze blossom material gorilla"
-const BITBOXSDK = require("bitbox-sdk"
+const BITBOXSDK = require("bitbox-sdk")
 
 const TOKEN_ID = "d1ffa294850353c35e56d66547b961dc8cb19a63557797caa9e6597b3ef64351"
 
