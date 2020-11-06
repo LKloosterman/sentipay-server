@@ -1,5 +1,5 @@
 const EXPRESS = require('express')
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 const BCHJS = require("@psf/bch-js")
 const MNEMONIC = "pluck vendor erase always juice wash consider fee breeze blossom material gorilla"
 const BITBOXSDK = require("bitbox-sdk")
